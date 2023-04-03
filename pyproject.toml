@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "tesco-iacestimationscript"
+version = "0.1.0"
+description = ""
+authors = ["Nathan Roys <nathan.roys@snyk.io>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.2"
+backoff = "^2.2.1"
+cloudformation-validator = "^0.6.36"
+PyYAML = "^6.0"
+colored = "^1.4.4"
+openpyxl = "^3.1.2"
+pandas = "^1.5.3"
+GitPython = "^3.1.31"
+typer = "^0.7.0"
+typer-cli = "^0.0.13"
+progressbar2 = "^4.2.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
